@@ -36,6 +36,70 @@ const routes: Routes = [
         loadChildren: () => import('../tab7/tab7.module').then( m => m.Tab7PageModule)
       },
       {
+        path: 'tab8',
+        loadChildren: () => import('../tab8/tab8.module').then( m => m.Tab8PageModule)
+      },
+      {
+        path: 'tab9',
+        loadChildren: () => import('../tab9/tab9.module').then( m => m.Tab9PageModule)
+      },
+      {
+        path: 'tab10',
+        loadChildren: () => import('../tab10/tab10.module').then( m => m.Tab10PageModule)
+      },
+      {
+        path: 'tab11',
+        loadChildren: () => import('../tab11/tab11.module').then( m => m.Tab11PageModule)
+      },
+      {
+        path: 'tab12',
+        loadChildren: () => import('../tab12/tab12.module').then( m => m.Tab12PageModule)
+      },
+      {
+        path: 'tab13',
+        loadChildren: () => import('../tab13/tab13.module').then( m => m.Tab13PageModule)
+      },
+      {
+        path: 'tab14',
+        loadChildren: () => import('../tab14/tab14.module').then( m => m.Tab14PageModule)
+      },
+      {
+        path: 'tab15',
+        loadChildren: () => import('../tab15/tab15.module').then( m => m.Tab15PageModule)
+      },
+      {
+        path: 'tab16',
+        loadChildren: () => import('../tab16/tab16.module').then( m => m.Tab16PageModule)
+      },
+      {
+        path: 'tab17',
+        loadChildren: () => import('../tab17/tab17.module').then( m => m.Tab17PageModule)
+      },
+      {
+        path: 'tab18',
+        loadChildren: () => import('../tab18/tab18.module').then( m => m.Tab18PageModule)
+      },
+      {
+        path: 'tab19',
+        loadChildren: () => import('../tab19/tab19.module').then( m => m.Tab19PageModule)
+      },
+      {
+        path: 'tab20',
+        loadChildren: () => import('../tab20/tab20.module').then( m => m.Tab20PageModule)
+      },
+      {
+        path: 'tab21',
+        loadChildren: () => import('../tab21/tab21.module').then( m => m.Tab21PageModule)
+      },
+      {
+        path: 'tab22',
+        loadChildren: () => import('../tab22/tab22.module').then( m => m.Tab22PageModule)
+      },
+      {
+        path: 'tab23',
+        loadChildren: () => import('../tab23/tab23.module').then( m => m.Tab23PageModule)
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
