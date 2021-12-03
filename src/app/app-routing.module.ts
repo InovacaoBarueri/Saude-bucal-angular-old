@@ -9,11 +9,6 @@ const routes: Routes = [
   },
   
  
-  
- 
- 
- 
- 
 ];
 @NgModule({
   imports: [
